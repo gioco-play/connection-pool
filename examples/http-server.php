@@ -1,10 +1,10 @@
 <?php
 include '../vendor/autoload.php';
 
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\ConnectionPoolTrait;
-use Smf\ConnectionPool\Connectors\CoroutineMySQLConnector;
-use Smf\ConnectionPool\Connectors\PhpRedisConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\ConnectionPoolTrait;
+use GiocoPlus\ConnectionPool\Connectors\CoroutineMySQLConnector;
+use GiocoPlus\ConnectionPool\Connectors\PhpRedisConnector;
 use Swoole\Coroutine\MySQL;
 use Swoole\Http\Request;
 use Swoole\Http\Response;

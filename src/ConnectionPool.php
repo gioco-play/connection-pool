@@ -1,8 +1,8 @@
 <?php
 
-namespace Smf\ConnectionPool;
+namespace GiocoPlus\ConnectionPool;
 
-use Smf\ConnectionPool\Connectors\ConnectorInterface;
+use GiocoPlus\ConnectionPool\Connectors\ConnectorInterface;
 use Swoole\Coroutine\Channel;
 use Swoole\Coroutine;
 

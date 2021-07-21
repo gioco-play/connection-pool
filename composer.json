@@ -1,10 +1,10 @@
 {
-  "name": "open-smf/connection-pool",
+  "name": "gioco-plus/connection-pool",
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/open-smf/connection-pool/issues",
-    "source": "https://github.com/open-smf/connection-pool"
+    "issues": "https://github.com/gioco-plus/connection-pool/issues",
+    "source": "https://github.com/gioco-plus/connection-pool"
   },
   "description": "A common connection pool based on Swoole is usually used as the database connection pool.",
   "keywords": [
@@ -12,7 +12,7 @@
     "connection-pool",
     "database-connection-pool"
   ],
-  "homepage": "https://github.com/open-smf/connection-pool",
+  "homepage": "https://github.com/gioco-plus/connection-pool",
   "authors": [
     {
       "name": "Xie Biao",
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Smf\\ConnectionPool\\": "src"
+      "GiocoPlus\\ConnectionPool\\": "src"
     }
   },
   "prefer-stable": true,

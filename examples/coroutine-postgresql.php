@@ -1,8 +1,8 @@
 <?php
 include '../vendor/autoload.php';
 
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\Connectors\CoroutinePostgreSQLConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\Connectors\CoroutinePostgreSQLConnector;
 use Swoole\Coroutine\PostgreSQL;
 
 go(function () {

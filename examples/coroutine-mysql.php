@@ -1,8 +1,8 @@
 <?php
 include '../vendor/autoload.php';
 
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\Connectors\CoroutineMySQLConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\Connectors\CoroutineMySQLConnector;
 use Swoole\Coroutine\MySQL;
 
 go(function () {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Smf\ConnectionPool;
+namespace GiocoPlus\ConnectionPool;
 
 trait ConnectionPoolTrait
 {

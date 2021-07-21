@@ -1,8 +1,8 @@
 <?php
 include '../vendor/autoload.php';
 
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\Connectors\PDOConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\Connectors\PDOConnector;
 
 // Enable coroutine for PDO
 Swoole\Runtime::enableCoroutine();

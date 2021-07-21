@@ -1,6 +1,6 @@
 <?php
 
-namespace Smf\ConnectionPool\Connectors;
+namespace GiocoPlus\ConnectionPool\Connectors;
 
 use Swoole\Coroutine\Redis;
 

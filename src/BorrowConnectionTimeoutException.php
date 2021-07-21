@@ -1,6 +1,6 @@
 <?php
 
-namespace Smf\ConnectionPool;
+namespace GiocoPlus\ConnectionPool;
 
 class BorrowConnectionTimeoutException extends \Exception
 {

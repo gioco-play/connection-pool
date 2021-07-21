@@ -1,8 +1,8 @@
 <?php
 include '../vendor/autoload.php';
 
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\Connectors\PhpRedisConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\Connectors\PhpRedisConnector;
 
 // Enable coroutine for PhpRedis
 Swoole\Runtime::enableCoroutine();

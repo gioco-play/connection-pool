@@ -1,10 +1,10 @@
 # Connection pool
 A common connection pool based on Swoole is usually used as the database connection pool.
 
-[![Latest Version](https://img.shields.io/github/release/open-smf/connection-pool.svg)](https://github.com/open-smf/connection-pool/releases)
-[![PHP Version](https://img.shields.io/packagist/php-v/open-smf/connection-pool.svg?color=green)](https://secure.php.net)
-[![Total Downloads](https://poser.pugx.org/open-smf/connection-pool/downloads)](https://packagist.org/packages/open-smf/connection-pool)
-[![License](https://poser.pugx.org/open-smf/connection-pool/license)](LICENSE)
+[![Latest Version](https://img.shields.io/github/release/open-GiocoPlus/connection-pool.svg)](https://github.com/open-GiocoPlus/connection-pool/releases)
+[![PHP Version](https://img.shields.io/packagist/php-v/open-GiocoPlus/connection-pool.svg?color=green)](https://secure.php.net)
+[![Total Downloads](https://poser.pugx.org/open-GiocoPlus/connection-pool/downloads)](https://packagist.org/packages/open-GiocoPlus/connection-pool)
+[![License](https://poser.pugx.org/open-GiocoPlus/connection-pool/license)](LICENSE)
 
 ## Requirements
 
@@ -17,7 +17,7 @@ A common connection pool based on Swoole is usually used as the database connect
 > Install package via [Composer](https://getcomposer.org/).
 
 ```shell
-composer require "open-smf/connection-pool:~1.0"
+composer require "open-GiocoPlus/connection-pool:~1.0"
 ```
 
 ## Usage
@@ -37,8 +37,8 @@ composer require "open-smf/connection-pool:~1.0"
 - Basic usage
 
 ```php
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\Connectors\CoroutineMySQLConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\Connectors\CoroutineMySQLConnector;
 use Swoole\Coroutine\MySQL;
 
 go(function () {
@@ -87,10 +87,10 @@ go(function () {
 - Usage in Swoole Server
 
 ```php
-use Smf\ConnectionPool\ConnectionPool;
-use Smf\ConnectionPool\ConnectionPoolTrait;
-use Smf\ConnectionPool\Connectors\CoroutineMySQLConnector;
-use Smf\ConnectionPool\Connectors\PhpRedisConnector;
+use GiocoPlus\ConnectionPool\ConnectionPool;
+use GiocoPlus\ConnectionPool\ConnectionPoolTrait;
+use GiocoPlus\ConnectionPool\Connectors\CoroutineMySQLConnector;
+use GiocoPlus\ConnectionPool\Connectors\PhpRedisConnector;
 use Swoole\Coroutine\MySQL;
 use Swoole\Http\Request;
 use Swoole\Http\Response;
