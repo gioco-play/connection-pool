@@ -1,10 +1,10 @@
 # Connection pool
 A common connection pool based on Swoole is usually used as the database connection pool.
 
-[![Latest Version](https://img.shields.io/github/release/open-GiocoPlus/connection-pool.svg)](https://github.com/open-GiocoPlus/connection-pool/releases)
-[![PHP Version](https://img.shields.io/packagist/php-v/open-GiocoPlus/connection-pool.svg?color=green)](https://secure.php.net)
-[![Total Downloads](https://poser.pugx.org/open-GiocoPlus/connection-pool/downloads)](https://packagist.org/packages/open-GiocoPlus/connection-pool)
-[![License](https://poser.pugx.org/open-GiocoPlus/connection-pool/license)](LICENSE)
+[![Latest Version](https://img.shields.io/github/release/gioco-plus/connection-pool.svg)](https://github.com/gioco-plus/connection-pool/releases)
+[![PHP Version](https://img.shields.io/packagist/php-v/gioco-plus/connection-pool.svg?color=green)](https://secure.php.net)
+[![Total Downloads](https://poser.pugx.org/gioco-plus/connection-pool/downloads)](https://packagist.org/packages/gioco-plus/connection-pool)
+[![License](https://poser.pugx.org/gioco-plus/connection-pool/license)](LICENSE)
 
 ## Requirements
 
@@ -17,7 +17,7 @@ A common connection pool based on Swoole is usually used as the database connect
 > Install package via [Composer](https://getcomposer.org/).
 
 ```shell
-composer require "open-GiocoPlus/connection-pool:~1.0"
+composer require "gioco-plus/connection-pool:~1.0"
 ```
 
 ## Usage
