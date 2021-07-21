@@ -17,7 +17,7 @@ A common connection pool based on Swoole is usually used as the database connect
 > Install package via [Composer](https://getcomposer.org/).
 
 ```shell
-composer require "gioco-plus/connection-pool:~1.0"
+composer require "gioco-plus/connection-pool": "dev-master"
 ```
 
 ## Usage
